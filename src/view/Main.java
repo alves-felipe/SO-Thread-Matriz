@@ -8,7 +8,7 @@ public class Main {
 		int[][] array = createArray();
 		
 		
-		for(int i = 0; i < 30; i++) {
+		for(int i = 0; i < 3; i++) {
 			Sum s = new Sum(array[i]);
 			s.start();
 		}
